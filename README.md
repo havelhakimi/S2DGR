@@ -26,7 +26,7 @@ python -u main.py \
   --masking_strategy=stability_guided \
   --stability_steps=auto \
   --stability_num_probes=2 \
-  --stability_lambda=0.005 \
+  --stability_lambda=0.01 \
   --encoder_n_layer=1 \
   --decoder_n_layer=4 \
   --n_head=4 \
@@ -58,7 +58,7 @@ python -u main.py \
   --masking_strategy=stability_guided \
   --stability_steps=auto \
   --stability_num_probes=4 \
-  --stability_lambda=0.005 \
+  --stability_lambda=0.01 \
   --encoder_n_layer=1 \
   --decoder_n_layer=4 \
   --n_head=4 \
@@ -90,7 +90,7 @@ python -u main.py \
   --masking_strategy=stability_guided \
   --stability_steps=auto \
   --stability_num_probes=4 \
-  --stability_lambda=0.005 \
+  --stability_lambda=0.01 \
   --encoder_n_layer=1 \
   --decoder_n_layer=4 \
   --n_head=8 \
