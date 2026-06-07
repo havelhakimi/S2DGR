@@ -13,7 +13,8 @@ pip install -r requirements.txt
 
 The main SAN logic is implemented in `genrec/models/S2DGR/model.py`, and SUD beam selection is implemented in `genrec/models/S2DGR/beam.py`.
 
-For SAN, we use `--stability_num_probes=2` and `--stability_lambda=0.005` on Sports, and `--stability_num_probes=4` and `--stability_lambda=0.005` on Beauty and Toys.
+For SAN, we set `--stability_num_probes=2` and `--stability_lambda=0.01` on Sports, and `--stability_num_probes=4` and `--stability_lambda=0.01` on Beauty and Toys.
+
 
 We adopt the tokenizer, encoder-decoder backbone, and training protocol of [DiffGRM](https://github.com/liuzhao09/DiffGRM); the remaining shared hyperparameters follow its dataset-specific settings.
 
